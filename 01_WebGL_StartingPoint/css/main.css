@@ -1,0 +1,29 @@
+
+html, body{
+    width:100%;
+    height:100%;
+    border:none;
+}
+
+h1{
+    width:100%;
+    text-align:center;
+    font:30px sans-serif;
+}
+
+/*
+the css width and height of the 
+canvas should match the elements
+width and height properties for best
+results
+
+here we are centering the canvas
+and giving it a background color that we
+will recognize
+*/
+#webgl-canvas{
+    margin-left:calc(50% - 480px);
+    width:960px;
+    height:540px;
+    background-color:#F0F;
+}

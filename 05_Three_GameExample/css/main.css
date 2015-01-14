@@ -1,0 +1,29 @@
+
+html, body{
+    width:100%;
+    height:100%;
+    border:none;
+    overflow: hidden;
+}
+
+h1{
+    width:100%;
+    text-align:center;
+    font:30px sans-serif;
+}
+
+/*
+size the div that the canvas
+will go into and center it nicely
+on the page
+
+I like to give it a nice
+bright background color so I can 
+see if something is not working right
+*/
+#canvas-wrapper{
+    margin-left:calc(50% - 480px);
+    width:960px;
+    height:540px;
+    background-color:#F0F;
+}
